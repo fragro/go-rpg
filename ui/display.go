@@ -75,5 +75,6 @@ func (d *DisplayManager) Keybindings(g *gocui.Gui) error {
 
 func (d *DisplayManager) quit(g *gocui.Gui, v *gocui.View) error {
     close(d.done)
+    g.Close()
     return gocui.ErrQuit
 }

@@ -16,7 +16,6 @@ import (
 var displayManager ui.DisplayManager
 //init values	
 const NUM_MONSTERS = 50
-const NUM_TURNS = 10
 const BOARD_SIZE = 20
 const PLAYER_STATS = 10
 const MONSTER_STATS = 7
